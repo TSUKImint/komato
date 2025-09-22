@@ -3,7 +3,7 @@ import type { PageServerLoad } from "./$types";
 
 export const load: PageServerLoad = async (event) => {
 	const { loadQuery } = event.locals;
-	const { slug } = event.params;
+	const { slug, year } = event.params;
 
 	const params = { slug };
 	const initial = await loadQuery<Artwork>(query, params);
