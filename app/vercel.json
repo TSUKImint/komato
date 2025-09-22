@@ -1,10 +1,6 @@
 {
 	"redirects": [
 		{
-			"source": "/work/:path",
-			"destination": "/:path"
-		},
-		{
 			"source": "/assets/:path",
 			"destination": "/:path"
 		}
