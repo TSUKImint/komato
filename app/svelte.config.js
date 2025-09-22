@@ -8,9 +8,7 @@ const config = {
 	preprocess: sveltePreprocess(),
 
 	kit: {
-		adapter: adapter({
-			split: true,
-		}),
+		adapter: adapter(),
 		paths: {
 			relative: false,
 		},
