@@ -91,27 +91,27 @@ const filterArtworks = (artworks) => {
 </script>
 
 <svelte:head>
-	<title>gallery | nezu.world</title>
-	<meta property="og:title" content="gallery | nezu.world" />
+	<title>gallery | komato.world</title>
+	<meta property="og:title" content="gallery | komato.world" />
 	<meta property="og:type" content="website" />
 	<meta property="og:description" content="Art by Lisa M" />
-	<meta property="og:description" content="Art by Lisa M." />
-	<meta property="og:url" content="https://nezu.world/{data.currentURL}" />
-	<meta property="og:site_name" content="nezu.world" />
+	<meta property="og:description" content="Art by Hajar R." />
+	<meta property="og:url" content="https://komato.world/{data.currentURL}" />
+	<meta property="og:site_name" content="komato.world" />
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:title" content="gallery | nezu.world" />
+	<meta name="twitter:title" content="gallery | komato.world" />
 	<meta name="twitter:description" content="Art by Lisa M" />
-	<meta name="twitter:description" content="Art by Lisa M." />
-	<meta name="twitter:url" content="https://nezu.world/{data.currentURL}" />
+	<meta name="twitter:description" content="Art by Hajar R." />
+	<meta name="twitter:url" content="https://komato.world/{data.currentURL}" />
 	<meta name="twitter:site" content="@ncb0_" />
 	<meta name="twitter:creator" content="@ncb0_" />
 	<meta
 		property="og:image"
-		content="https://nezu.world/android-chrome-512x512.png"
+		content="https://komato.world/android-chrome-512x512.png"
 	/>
 	<meta
 		property="twitter:image"
-		content="https://nezu.world/android-chrome-512x512.png"
+		content="https://komato.world/android-chrome-512x512.png"
 	/>
 </svelte:head>
 

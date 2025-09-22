@@ -11,9 +11,9 @@ export const dataset = process.env.SANITY_STUDIO_DATASET!
 
 export default defineConfig({
   name: 'nezu-insanity',
-  title: 'nezu.world 2.0',
-  projectId,
-  dataset,
+  title: 'komato.world 2.0',
+  projectId: 'nn4kp1g1',
+  dataset: 'production', 
   plugins: [
     structureTool(),
     presentationTool({

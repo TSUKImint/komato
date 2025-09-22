@@ -8,34 +8,34 @@ $: ({ data: tags } = $q);
 </script>
 
 <svelte:head>
-	<title>tags | nezu.world</title>
-	<meta property="og:title" content="tags | nezu.world" />
+	<title>tags | komato.world</title>
+	<meta property="og:title" content="tags | komato.world" />
 	<meta
 		property="og:description"
-		content="The homepage of Lisa M., an artist & designer in Toronto, Canada."
+		content="The homepage of Hajar R., an artist & designer in Antwerp, Belgium.."
 	/>
 	<meta
 		property="description"
-		content="The homepage of Lisa M., an artist & designer in Toronto, Canada."
+		content="The homepage of Hajar R., an artist & designer in Antwerp, Belgium.."
 	/>
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://nezu.world/{data.currentURL}" />
-	<meta property="og:site_name" content="nezu.world" />
+	<meta property="og:url" content="https://komato.world/{data.currentURL}" />
+	<meta property="og:site_name" content="komato.world" />
 	<meta property="twitter:card" content="summary" />
-	<meta property="twitter:title" content="tags | nezu.world" />
+	<meta property="twitter:title" content="tags | komato.world" />
 	<meta
 		property="twitter:description"
-		content="The homepage of Lisa M., an artist & designer in Toronto, Canada."
+		content="The homepage of Hajar R., an artist & designer in Antwerp, Belgium.."
 	/>
-	<meta property="twitter:url" content="https://nezu.world/{data.currentURL}" />
+	<meta property="twitter:url" content="https://komato.world/{data.currentURL}" />
 	<meta property="twitter:creator" content="@ncb0_" />
 	<meta
 		property="og:image"
-		content="https://nezu.world/android-chrome-512x512.png"
+		content="https://komato.world/android-chrome-512x512.png"
 	/>
 	<meta
 		property="twitter:image"
-		content="https://nezu.world/android-chrome-512x512.png"
+		content="https://komato.world/android-chrome-512x512.png"
 	/>
 </svelte:head>
 
