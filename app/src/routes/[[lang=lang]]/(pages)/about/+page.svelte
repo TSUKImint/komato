@@ -113,12 +113,7 @@ import Image from "$lib/components/Image.svelte";
 	</h3>
 
 	<hr style="clear: none;" />
-
-	<figure class="float-right" style="width: 170px; position: relative; right: 426px; top: -10px;">
-  <img src="/img/deer_mirrored.png" alt="Lisa in her mouse-human hybrid form…" style="width: 100%; height: auto;" />
-  <figcaption style="text-align: center; font-size: 0.9em;">HAJAR R (C) 2025.</figcaption>
-</figure>
-
+	
 	<p>&lt;/&gt; WITH &lt;3 BY LISA M, 2025.</p>
 
 	<h4 id="fonts">Fonts</h4>
