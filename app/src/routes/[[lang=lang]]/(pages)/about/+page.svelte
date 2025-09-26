@@ -3,6 +3,7 @@ import Image from "$lib/components/Image.svelte";
 </script>
 
 <svelte:head>
+	
 	<title>about | komato.world</title>
 	<meta property="og:title" content="komato.world" />
 	<meta
@@ -113,32 +114,33 @@ import Image from "$lib/components/Image.svelte";
 	</h3>
 
 	<hr style="clear: none;" />
-	
-	<p>&lt;/&gt; WITH &lt;3 BY LISA M, 2025.</p>
 
-	<h4 id="fonts">Fonts</h4>
+<figure style="margin-top: 0.5ex; float: left; width: 200px; display: inline-block;">
+  <img src="/img/image_new.png" alt="Lisa in her mouse-human hybrid form…" style="width: 100%; height: auto;" />
+  <figcaption style="font-size: 0.8em; text-align: left; margin-top: 0.5em; padding-left: 0.1em;">
+    Photo by: <a href="http://lorikiessling.ca/" target="_blank">Lori Kiessling</a>
+  </figcaption>
+</figure>
 
-	<ul>
-		<li>Helvetica</li>
-		<!-- <li>
-			<a
-				href="https://github.com/weiweihuanghuang/fragment-mono"
-				target="_blank">Fragment Mono</a
-			> (Modified)
-		</li> -->
-		<li>River Mono (TBA)</li>
-		<li><a href="/type#tm-lagrange-mono">tm-lagrange-mono</a></li>
-	</ul>
+<div style="margin-left: 210px; margin-top: 1.4em;">
+  <p>&lt;/&gt; WITH &lt;3 BY LISA M, 2025.</p>
 
-	<h4 id="tools">Tools</h4>
+  <h4 id="fonts">Fonts</h4>
+  <ul>
+    <li>Helvetica</li>
+    <li>River Mono (TBA)</li>
+    <li><a href="/type#tm-lagrange-mono">tm-lagrange-mono</a></li>
+  </ul>
 
-	<ul>
-		<li>Visual Studio Code</li>
-		<li>Inkscape</li>
-		<li>Adobe Illustrator CC</li>
-		<li>Clip Studio Paint</li>
-		<li><a href="https://kit.svelte.dev" target="_blank">SvelteKit</a></li>
-		<li><a href="https://sanity.io" target="_blank">Sanity CMS</a></li>
-		<li><a href="https://vercel.com" target="_blank">Vercel</a></li>
-	</ul>
+  <h4 id="tools">Tools</h4>
+  <ul>
+    <li>Visual Studio Code</li>
+    <li>Inkscape</li>
+    <li>Adobe Illustrator CC</li>
+    <li>Clip Studio Paint</li>
+    <li><a href="https://kit.svelte.dev" target="_blank">SvelteKit</a></li>
+    <li><a href="https://sanity.io" target="_blank">Sanity CMS</a></li>
+    <li><a href="https://vercel.com" target="_blank">Vercel</a></li>
+  </ul>
+</div>
 </article>
