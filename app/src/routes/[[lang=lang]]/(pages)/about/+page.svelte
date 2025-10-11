@@ -123,7 +123,7 @@ import Image from "$lib/components/Image.svelte";
 </figure>
 
 <div style="margin-left: 210px; margin-top: 1.4em;">
-  <p>&lt;/&gt; WITH &lt;3 BY LISA M, 2025.</p>
+  <p>&lt;/&gt; WITH &lt;3 BY HAJAR R, 2025.</p>
 
   <h4 id="fonts">Fonts</h4>
   <ul>

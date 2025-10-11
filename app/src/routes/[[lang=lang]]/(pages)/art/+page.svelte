@@ -94,13 +94,13 @@ const filterArtworks = (artworks) => {
 	<title>gallery | komato.world</title>
 	<meta property="og:title" content="gallery | komato.world" />
 	<meta property="og:type" content="website" />
-	<meta property="og:description" content="Art by Lisa M" />
+	<meta property="og:description" content="Art by Hajar R." />
 	<meta property="og:description" content="Art by Hajar R." />
 	<meta property="og:url" content="https://komato.world/{data.currentURL}" />
 	<meta property="og:site_name" content="komato.world" />
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:title" content="gallery | komato.world" />
-	<meta name="twitter:description" content="Art by Lisa M" />
+	<meta name="twitter:description" content="Art by Hajar R." />
 	<meta name="twitter:description" content="Art by Hajar R." />
 	<meta name="twitter:url" content="https://komato.world/{data.currentURL}" />
 	<meta name="twitter:site" content="@ncb0_" />
