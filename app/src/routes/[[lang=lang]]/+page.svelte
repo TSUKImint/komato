@@ -68,7 +68,7 @@ console.log('Posts data:', posts);
     <path d="M16.949 14.14a5 2.5 0 1 1-9.9 0L10.063 3.5a2 2 0 0 1 3.874 0z"/>
     <path d="M9.194 6.57a5 2.5 0 0 0 5.61 0"/>
   </svg>
-				WIP/ARCHIVE</a
+				WIP</a
 			>
 		</h3>
 	</section>
