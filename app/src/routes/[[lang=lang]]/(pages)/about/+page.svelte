@@ -39,11 +39,6 @@ content="https://komato/android-chrome-512x512.png"
 <article class="narrow">
 <h1>about</h1>
 
-<figure class="float-right" style="margin-top: 0.5ex;">
-<img src="/img/nezureal.jpg" alt="Lisa in her mouse-human hybrid form…" />
-<figcaption>Lisa in her mouse-human hybrid form…</figcaption>
-</figure>
-
 <p style="margin-top: 0.5ex;">
 I’m Hajar, a multidisciplinary artist based in Antwerp. My work spans digital and traditional art, graphic design, type design and creative writing. I value curiosity and exploring many creative forms.
 </p>
