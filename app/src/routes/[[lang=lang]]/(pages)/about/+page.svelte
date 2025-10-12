@@ -126,14 +126,14 @@ import Image from "$lib/components/Image.svelte";
   </ul>
 
   <h4 id="tools">Tools</h4>
-  <ul>
-    <li>Visual Studio Code</li>
-    <li>Inkscape</li>
-    <li>Adobe Illustrator CC</li>
-    <li>Clip Studio Paint</li>
-    <li><a href="https://kit.svelte.dev" target="_blank">SvelteKit</a></li>
-    <li><a href="https://sanity.io" target="_blank">Sanity CMS</a></li>
-    <li><a href="https://vercel.com" target="_blank">Vercel</a></li>
-  </ul>
-</div>
+
+	<ul>
+		<li>Visual Studio Code</li>
+		<li>Inkscape</li>
+		<li>Adobe Illustrator CC</li>
+		<li>Clip Studio Paint</li>
+		<li><a href="https://kit.svelte.dev" target="_blank">SvelteKit</a></li>
+		<li><a href="https://sanity.io" target="_blank">Sanity CMS</a></li>
+		<li><a href="https://vercel.com" target="_blank">Vercel</a></li>
+	</ul>
 </article>
