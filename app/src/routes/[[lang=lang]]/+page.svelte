@@ -20,8 +20,8 @@ console.log('Posts data:', posts);
 </script>
 
 <svelte:head>
-	<title>komato.world</title>
-	<meta property="og:title" content="komato.world" />
+	<title>komato</title>
+	<meta property="og:title" content="komato" />
 	<meta
 		property="og:description"
 		content="The homepage of Hajar R., an artist & designer in Antwerp, Belgium.."
@@ -32,11 +32,11 @@ console.log('Posts data:', posts);
 	/>
 	<meta
 		property="og:image"
-		content="https://komato.world/android-chrome-512x512.png"
+		content="https://komato/android-chrome-512x512.png"
 	/>
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://komato.world/" />
-	<meta property="og:site_name" content="komato.world" />
+	<meta property="og:url" content="https://komato/" />
+	<meta property="og:site_name" content="komato" />
 </svelte:head>
 
 <article>
@@ -50,8 +50,8 @@ console.log('Posts data:', posts);
 			{/if}
 		</h1>
 		<!-- <h2>
-			(current version: <a href="https://v1.komato.world" target="_blank"
-				>v1.komato.world</a
+			(current version: <a href="https://v1.komato" target="_blank"
+				>v1.komato</a
 			>)
 		</h2> -->
 	</section>
