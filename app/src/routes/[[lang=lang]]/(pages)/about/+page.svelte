@@ -51,7 +51,7 @@ import Image from "$lib/components/Image.svelte";
 
 	<h2>contact</h2>
 	<p>
-		<a href="mailto:kikkomato@dmc.chat">kikkomato@dmc.chat</a>
+		<a href="mailto:komato@dmc.chat">komato@dmc.chat</a>
 	</p>
 
 	<h2>elsewhere</h2>
@@ -114,13 +114,6 @@ import Image from "$lib/components/Image.svelte";
 	</h3>
 
 	<hr style="clear: none;" />
-
-<figure style="margin-top: 0.5ex; float: left; width: 200px; display: inline-block;">
-  <img src="/img/image_new.png" alt="Lisa in her mouse-human hybrid form…" style="width: 100%; height: auto;" />
-  <figcaption style="font-size: 0.8em; text-align: left; margin-top: 0.5em; padding-left: 0.1em;">
-    Photo by: <a href="http://lorikiessling.ca/" target="_blank">Lori Kiessling</a>
-  </figcaption>
-</figure>
 
 <div style="margin-left: 210px; margin-top: 1.4em;">
   <p>&lt;/&gt; WITH &lt;3 BY HAJAR R, 2025.</p>

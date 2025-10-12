@@ -31,7 +31,7 @@ export let data;
 		<h1>type design</h1>
 		<p>
 			For licensing information, contact <a
-				href="mailto:kikkomato@dmc.chat">kikkomato@dmc.chat</a
+				href="mailto:komato@dmc.chat">komato@dmc.chat</a
 			>.
 		</p>
 	</section>
