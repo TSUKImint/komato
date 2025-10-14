@@ -56,7 +56,7 @@ Available for freelance work—flyers, album covers, and more. I’m mainly inte
 <h2>elsewhere</h2>
 <h3>
 <a target="_blank"
-href="https://www.pixiv.net/en/users/63526507"
+href="https://www.pixiv.net/en/users/6352650733"
 class="button"
 ><svg
 xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +72,7 @@ d="M20.5 4.4C18.7 2.9 16.2 2 13.3 2 5.8 2 .7 7.7.7 7.7l1.4 2.2s.8.1.4-1.3C2.9 8 
 </svg>
 Pixiv</a
 >
-<a target="_blank" href="https://www.are.na/lisa-m" class="button"
+<a target="_blank" href="https://www.are.na/kikkomato" class="button"
 ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon">
 <path
 fill="rgb(var(--text-color))"
@@ -81,7 +81,7 @@ d="m23.77 14.85-3.33-2.61a.37.37 0 0 1 0-.59l3.33-2.61c.2-.16.29-.43.19-.6-.1-.1
 </svg>
 Are.na</a
 >
-<a target="_blank" href="https://ko-fi.com/nezita" class="button"
+<a target="_blank" href="https://ko-fi.com/kikkomato" class="button"
 ><svg
 xmlns="http://www.w3.org/2000/svg"
 xml:space="preserve"
