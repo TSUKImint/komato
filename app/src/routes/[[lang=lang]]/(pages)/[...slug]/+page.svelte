@@ -22,27 +22,27 @@ let { data: post } = $derived($q);
 </script>
 
 <svelte:head>
-	<title>{post.shortTitle} | komato.world</title>
-	<meta property="og:title" content="{post.title} | komato.world" />
+	<title>{post.shortTitle} | komato</title>
+	<meta property="og:title" content="{post.title} | komato" />
 	<meta
 		property="og:description"
-		content={post.excerpt ? post.excerpt : "komato.world"}
+		content={post.excerpt ? post.excerpt : "komato"}
 	/>
 	<meta
 		property="description"
-		content={post.excerpt ? post.excerpt : "komato.world"}
+		content={post.excerpt ? post.excerpt : "komato"}
 	/>
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://komato.world{data.currentURL}" />
+	<meta property="og:url" content="https://komato{data.currentURL}" />
 	<meta
 		property="og:image"
 		content={urlFor(post.mainImage).width(512).height(512).url()}
 	/>
-	<meta property="og:site_name" content="komato.world" />
+	<meta property="og:site_name" content="komato" />
 
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:creator" content="@ncb0_" />
-	<meta name="twitter:title" content="{post.title} | komato.world" />
+	<meta name="twitter:title" content="{post.title} | komato" />
 	<meta name="twitter:description" content={post.excerpt} />
 	<meta
 		name="twitter:image"

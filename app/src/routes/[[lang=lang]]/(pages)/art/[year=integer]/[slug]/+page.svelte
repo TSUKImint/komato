@@ -30,15 +30,15 @@ function getImageDimensions(id) {
 </script>
 
 <svelte:head>
-	<title>{artwork.title} | komato.world</title>
-	<meta property="og:title" content="{artwork.title} | komato.world" />
-	<meta property="twitter:title" content="{artwork.title} | komato.world" />
+	<title>{artwork.title} | komato</title>
+	<meta property="og:title" content="{artwork.title} | komato" />
+	<meta property="twitter:title" content="{artwork.title} | komato" />
 	<meta property="og:description" content="{artwork.title} by Hajar R." />
 	<meta property="description" content="{artwork.title} by Hajar R." />
 	<meta property="twitter:description" content="{artwork.title} by Hajar R." />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://komato.world{data.currentURL}" />
-	<meta property="og:site_name" content="komato.world" />
+	<meta property="og:url" content="https://komato{data.currentURL}" />
+	<meta property="og:site_name" content="komato" />
 	<meta property="twitter:card" content="summary" />
 	{#if artwork.nsfw == true}
 		<meta

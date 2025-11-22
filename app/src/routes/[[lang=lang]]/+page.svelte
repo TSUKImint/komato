@@ -42,7 +42,7 @@ console.log('Posts data:', posts);
 <article>
 	<section>
 		<h1>
-			<!-- <a href="/">komato.world</a> is under construction. -->
+			<!-- <a href="/">komato</a> is under construction. -->
 			{#if data.params.lang === "jp"}
 				ボク<a href="about">hajar rahimi</a>です。アントワープ出身のアーティストです。
 			{:else}

@@ -4,25 +4,25 @@ export let data;
 </script>
 
 <svelte:head>
-	<title>type design | komato.world</title>
-	<meta property="og:title" content="tags | komato.world" />
+	<title>type design | komato</title>
+	<meta property="og:title" content="tags | komato" />
 	<meta property="og:description" content="Typefaces designed by Hajar R." />
 	<meta property="description" content="Typefaces designed by Hajar R." />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://komato.world/{data.currentURL}" />
-	<meta property="og:site_name" content="komato.world" />
+	<meta property="og:url" content="https://komato/{data.currentURL}" />
+	<meta property="og:site_name" content="komato" />
 	<meta property="twitter:card" content="summary" />
 	<meta property="twitter:title" content={data.title} />
 	<meta property="twitter:description" content={data.description} />
-	<meta property="twitter:url" content="https://komato.world/{data.currentURL}" />
+	<meta property="twitter:url" content="https://komato/{data.currentURL}" />
 	<meta property="twitter:creator" content="@ncb0_" />
 	<meta
 		property="og:image"
-		content="https://komato.world/android-chrome-512x512.png"
+		content="https://komato/android-chrome-512x512.png"
 	/>
 	<meta
 		property="twitter:image"
-		content="https://komato.world/android-chrome-512x512.png"
+		content="https://komato/android-chrome-512x512.png"
 	/>
 </svelte:head>
 

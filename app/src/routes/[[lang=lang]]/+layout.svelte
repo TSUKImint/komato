@@ -17,7 +17,7 @@ let currentURL = $derived(data.currentURL);
 </script>
 
 <svelte:head>
-	<!-- <title>komato.world</title> -->
+	<!-- <title>komato</title> -->
 	<meta
 		name="theme-color"
 		media="(prefers-color-scheme: light)"

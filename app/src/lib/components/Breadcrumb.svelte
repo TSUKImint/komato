@@ -21,13 +21,13 @@ if (tokens.length > 0 && isLanguageParam(tokens[0])) {
 	const langToken = tokens[0];
 	tokenPath = "/" + langToken;
 	crumbs.push({
-		label: `komato.world/${langToken}`,
+		label: `komato/${langToken}`,
 		href: tokenPath,
 	});
 	startIndex = 1;
 } else {
 	// No language parameter, just add base URL
-	crumbs.push({ label: "komato.world", href: "/" });
+	crumbs.push({ label: "komato", href: "/" });
 }
 
 // Process remaining tokens

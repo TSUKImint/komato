@@ -91,27 +91,27 @@ const filterArtworks = (artworks) => {
 </script>
 
 <svelte:head>
-	<title>gallery | komato.world</title>
-	<meta property="og:title" content="gallery | komato.world" />
+	<title>gallery | komato</title>
+	<meta property="og:title" content="gallery | komato" />
 	<meta property="og:type" content="website" />
 	<meta property="og:description" content="Art by Hajar R." />
 	<meta property="og:description" content="Art by Hajar R." />
-	<meta property="og:url" content="https://komato.world/{data.currentURL}" />
-	<meta property="og:site_name" content="komato.world" />
+	<meta property="og:url" content="https://komato/{data.currentURL}" />
+	<meta property="og:site_name" content="komato" />
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:title" content="gallery | komato.world" />
+	<meta name="twitter:title" content="gallery | komato" />
 	<meta name="twitter:description" content="Art by Hajar R." />
 	<meta name="twitter:description" content="Art by Hajar R." />
-	<meta name="twitter:url" content="https://komato.world/{data.currentURL}" />
+	<meta name="twitter:url" content="https://komato/{data.currentURL}" />
 	<meta name="twitter:site" content="@ncb0_" />
 	<meta name="twitter:creator" content="@ncb0_" />
 	<meta
 		property="og:image"
-		content="https://komato.world/android-chrome-512x512.png"
+		content="https://komato/android-chrome-512x512.png"
 	/>
 	<meta
 		property="twitter:image"
-		content="https://komato.world/android-chrome-512x512.png"
+		content="https://komato/android-chrome-512x512.png"
 	/>
 </svelte:head>
 

@@ -14,34 +14,34 @@ console.log(data.blogPosts.data);
 </script>
 
 <svelte:head>
-	<title>#{data.params.tag} | komato.world</title>
-	<meta property="og:title" content="#{data.params.tag} | komato.world" />
+	<title>#{data.params.tag} | komato</title>
+	<meta property="og:title" content="#{data.params.tag} | komato" />
 	<meta
 		property="og:description"
-		content="pages tagged #{data.params.tag} on komato.world"
+		content="pages tagged #{data.params.tag} on komato"
 	/>
 	<meta
 		property="description"
-		content="pages tagged #{data.params.tag} on komato.world"
+		content="pages tagged #{data.params.tag} on komato"
 	/>
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://komato.world{data.currentURL}" />
-	<meta property="og:site_name" content="komato.world" />
+	<meta property="og:url" content="https://komato{data.currentURL}" />
+	<meta property="og:site_name" content="komato" />
 	<meta property="twitter:card" content="summary" />
-	<meta property="twitter:title" content="{data.params.tag} | komato.world" />
+	<meta property="twitter:title" content="{data.params.tag} | komato" />
 	<meta
 		property="twitter:description"
-		content="pages tagged #{data.params.tag} on komato.world"
+		content="pages tagged #{data.params.tag} on komato"
 	/>
-	<meta property="twitter:url" content="https://komato.world{data.currentURL}" />
+	<meta property="twitter:url" content="https://komato{data.currentURL}" />
 	<meta property="twitter:creator" content="@ncb0_" />
 	<meta
 		property="og:image"
-		content="https://komato.world/android-chrome-512x512.png"
+		content="https://komato/android-chrome-512x512.png"
 	/>
 	<meta
 		property="twitter:image"
-		content="https://komato.world/android-chrome-512x512.png"
+		content="https://komato/android-chrome-512x512.png"
 	/>
 </svelte:head>
 

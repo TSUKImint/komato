@@ -14,33 +14,33 @@ let { data: artworks } = $derived($q);
 </script>
 
 <svelte:head>
-	<title>{data.params.year} gallery | komato.world</title>
-	<meta property="og:title" content="{data.params.year} gallery | komato.world" />
+	<title>{data.params.year} gallery | komato</title>
+	<meta property="og:title" content="{data.params.year} gallery | komato" />
 	<meta property="og:type" content="website" />
 	<meta
 		property="og:description"
 		content="Art by Hajar R. ({data.params.year})"
 	/>
 	<meta property="description" content="Art by Hajar R. ({data.params.year})" />
-	<meta property="og:url" content="https://komato.world/{data.currentURL}" />
-	<meta property="og:site_name" content="komato.world" />
+	<meta property="og:url" content="https://komato/{data.currentURL}" />
+	<meta property="og:site_name" content="komato" />
 	<meta property="twitter:card" content="summary" />
 	<meta
 		property="twitter:title"
-		content="{data.params.year} gallery | komato.world"
+		content="{data.params.year} gallery | komato"
 	/>
 	<meta
 		property="twitter:description"
 		content="Art by Hajar R. ({data.params.year})"
 	/>
-	<meta property="twitter:url" content="https://komato.world/{data.currentURL}" />
+	<meta property="twitter:url" content="https://komato/{data.currentURL}" />
 	<meta
 		property="og:image"
-		content="https://komato.world/android-chrome-512x512.png"
+		content="https://komato/android-chrome-512x512.png"
 	/>
 	<meta
 		property="twitter:image"
-		content="https://komato.world/android-chrome-512x512.png"
+		content="https://komato/android-chrome-512x512.png"
 	/>
 </svelte:head>
 
