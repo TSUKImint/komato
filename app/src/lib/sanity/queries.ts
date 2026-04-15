@@ -111,6 +111,7 @@ export interface Post {
 	mainImage?: ImageAsset;
 	body: PortableTextBlock[];
 	children?: Array<Post>;
+	vroidEmbed?: string;
 }
 
 export interface BlogPost {

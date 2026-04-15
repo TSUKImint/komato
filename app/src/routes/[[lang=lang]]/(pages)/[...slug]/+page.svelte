@@ -8,14 +8,11 @@ import Image from "$lib/components/Image.svelte";
 import ImageGrid from "$lib/components/ImageGrid.svelte";
 import ImageRow from "$lib/components/ImageRow.svelte";
 import Break from "$lib/components/Break.svelte";
-
 import CardGrid from "$lib/components/CardGrid.svelte";
 import Button from "$lib/components/Button.svelte";
-
 interface Props {
 	data: PageData;
 }
-
 let { data }: Props = $props();
 let q = $derived(useQuery(data));
 let { data: post } = $derived($q);
@@ -39,7 +36,6 @@ let { data: post } = $derived($q);
 		content={urlFor(post.mainImage).width(512).height(512).url()}
 	/>
 	<meta property="og:site_name" content="komato" />
-
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:creator" content="@ncb0_" />
 	<meta name="twitter:title" content="{post.title} | komato" />
@@ -52,7 +48,6 @@ let { data: post } = $derived($q);
 
 <article class="narrow">
 	<h1>{post.title}</h1>
-
 	{#if post.body}
 		<PortableText
 			components={{
@@ -67,10 +62,36 @@ let { data: post } = $derived($q);
 			value={post.body}
 		/>
 	{/if}
-
+	{#if post.vroidEmbed}
+		<div class="vroid-card">
+			<iframe
+				src={post.vroidEmbed}
+				title="VRoid model viewer"
+				frameborder="0"
+				allow="xr-spatial-tracking"
+				allowfullscreen
+			></iframe>
+		</div>
+	{/if}
 	{#if data.children.data.length > 0}
 		<hr />
 		<h2>subpages</h2>
 		<CardGrid items={data.children.data} baseURL={""} />
 	{/if}
 </article>
+
+<style>
+  .vroid-card {
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 2 / 3;
+    margin: 1rem 0;
+  }
+
+  .vroid-card iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+  }
+</style>
