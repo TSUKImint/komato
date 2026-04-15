@@ -1,5 +1,6 @@
 import {defineField, defineType} from 'sanity'
 import {localeString, baseLanguage} from './localeStringType'
+
 export default defineType({
   name: 'post',
   title: 'Post',
@@ -87,11 +88,6 @@ export default defineType({
       title: 'Body',
       type: 'blockContent',
       validation: (Rule) => Rule.required(),
-    }),
-    defineField({
-      name: 'vroidEmbed',
-      title: 'VRoid Embed URL',
-      type: 'string',
     }),
   ],
   preview: {
