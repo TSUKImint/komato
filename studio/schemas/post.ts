@@ -89,6 +89,12 @@ export default defineType({
       type: 'blockContent',
       validation: (Rule) => Rule.required(),
     }),
+    defineField({
+      name: 'vroidEmbedUrl',
+      title: 'VRoid Hub Embed URL',
+      type: 'url',
+      description: 'Optional: paste the /embed URL from VRoid Hub here',
+    }),
   ],
   preview: {
     select: {

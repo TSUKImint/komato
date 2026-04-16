@@ -2,11 +2,13 @@ import type { PortableTextBlock } from "@portabletext/types";
 import type { ImageAsset, Slug } from "@sanity/types";
 import groq from "groq";
 
-export const postQuery = groq`*[_type == "post" && slug.current == $slug][0]`;
+export const postQuery = groq`*[_type == "post" && slug.current == $slug][0]{
+  title, shortTitle, slug, mainImage, body, excerpt, year, date, myTags, children, vroidEmbedUrl
+}`;
 
 // export const postsQuery = groq`*[_type == "post" && defined(slug.current) && !(myTags[].value match "subpage") && !(myTags[].value match "testing")] | order(title asc) | order(date desc)`;
 
-export const postsQuery = groq`*[_type == "post"
+export const postsQuery = groq`*[_type == "post"]
   && defined(slug.current)
   && !(myTags[].value match "subpage")
   && !(myTags[].value match "testing")]
@@ -111,6 +113,7 @@ export interface Post {
 	mainImage?: ImageAsset;
 	body: PortableTextBlock[];
 	children?: Array<Post>;
+	vroidEmbedUrl?: string;
 }
 
 export interface BlogPost {

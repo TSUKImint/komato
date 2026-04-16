@@ -68,6 +68,17 @@ let { data: post } = $derived($q);
 		/>
 	{/if}
 
+	{#if post.vroidEmbedUrl}
+		<iframe
+			src={post.vroidEmbedUrl}
+			width="100%"
+			height="600"
+			style="border: none; border-radius: 12px;"
+			title="VRoid 3D Model Viewer"
+			allow="fullscreen"
+		/>
+	{/if}
+
 	{#if data.children.data.length > 0}
 		<hr />
 		<h2>subpages</h2>
