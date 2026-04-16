@@ -8,9 +8,9 @@ import Image from "$lib/components/Image.svelte";
 import ImageGrid from "$lib/components/ImageGrid.svelte";
 import ImageRow from "$lib/components/ImageRow.svelte";
 import Break from "$lib/components/Break.svelte";
-
 import CardGrid from "$lib/components/CardGrid.svelte";
 import Button from "$lib/components/Button.svelte";
+import VroidEmbed from "$lib/components/VroidEmbed.svelte";
 
 interface Props {
 	data: PageData;
@@ -62,6 +62,7 @@ let { data: post } = $derived($q);
 					imagerow: ImageRow,
 					break: Break,
 					button: Button,
+					vroidEmbed: VroidEmbed,
 				},
 			}}
 			value={post.body}

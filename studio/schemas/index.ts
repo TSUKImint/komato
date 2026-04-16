@@ -6,6 +6,7 @@ import gallery from './objects/gallery'
 import imagerow from './objects/imagerow'
 import youtubeEmbed from './objects/youtubeVideo'
 import button from './objects/button'
+import vroidEmbed from './objects/vroidEmbed'
 import {localeString} from './localeStringType'
 
 export const schemaTypes = [
@@ -17,5 +18,6 @@ export const schemaTypes = [
   imagerow,
   youtubeEmbed,
   button,
+  vroidEmbed,
   localeString,
 ]
