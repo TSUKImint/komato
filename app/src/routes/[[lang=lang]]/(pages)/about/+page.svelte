@@ -99,7 +99,7 @@ Ko-fi</a
 
 <hr style="clear: none;" />
 
-<p>&lt;/&gt; WITH &lt;3 BY HAJAR R (C) 2025.</p>
+<p>&lt;/&gt; WITH &lt;3 BY HAJAR R (C) 2026.</p>
 
 <h4 id="fonts">Fonts</h4>
 
